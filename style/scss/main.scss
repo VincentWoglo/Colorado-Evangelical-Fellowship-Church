@@ -1,0 +1,255 @@
+@use "fonts";
+
+.navigation-section {
+    background-color: #0D0D0D;
+    color: #ffffff;
+}
+
+.navigation-section nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.navigation-scroll {
+    position: fixed !important;
+    background-color: #ffffff;
+    width: 100%;
+    animation: smoothScroll .5s forwards;
+    z-index: 73647982740238092387;
+    padding: 10px 0;
+    top: 0;
+}
+
+nav .container .left-nav-menu-wrapper, 
+.left-nav-menu-wrapper .menu-list ul {
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+    .logo-wrapper .logo {
+        text-transform: uppercase;
+        font-size: fonts.$font-size-24px !important;
+        font-weight: bolder !important;
+        letter-spacing: fonts.$letter-sapcing-0 !important;
+    }
+    li {
+        text-transform: uppercase;
+    }
+}
+
+nav .left-nav-menu-wrapper .menu-list {
+    margin-left: 150px;
+}
+
+nav .container .nav-contact-btn {
+    text-transform: uppercase;
+    font-size: fonts.$font-size-16px;
+    font-weight: normal;
+    letter-spacing: fonts.$letter-sapcing-0;
+    padding: 20px 48px;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: #FFD2A4;
+    color: #1C1D28;
+}
+
+.hero-section .hero-section-background {
+    position: absolute;
+    width: 100%;
+}
+
+.hero-section .container {
+    position: relative;
+    color: #ffffff;
+    padding-top: 128px;
+}
+
+.hero-section .container .subheader {
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    font-size: fonts.$font-size-16px;
+    letter-spacing: fonts.$letter-sapcing-0;
+}
+
+.hero-section .container h1 {
+    max-width: 592px;
+    text-transform: uppercase;
+}
+
+.hero-section .container button {
+    background-color: #FFD2A4;
+    padding: 24px 64px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-size: fonts.$font-size-16px;
+    line-height: fonts.$line-height-16px;
+    letter-spacing: fonts.$letter-sapcing-0;
+    margin-top: 32px;
+}
+
+.hero-section .container .hero-description {
+    display: flex;
+    max-width: 338px;
+    align-items: flex-start;
+    margin-top: 64px;
+}
+
+.hero-section .container .hero-description hr {
+    width: 18px;
+    height: 1px;
+    background-color: #FFD2A4;
+    border: 1px #FFD2A4 solid;
+    margin-right: 12px;
+}
+
+
+/*
+------------------------------------------------------------
+Church Vision Section
+------------------------------------------------------------
+*/
+
+.church-vision-section .container {
+    padding-top: 241px;
+    padding-bottom: 128px;
+}
+
+.church-vision-section .container .subheader {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.church-vision-section .container h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: fonts.$font-size-48px;
+    line-height: fonts.$line-height-64px;
+    letter-spacing: fonts.$letter-sapcing-negative-1;
+}
+
+.church-vision-section .container .card-wrapper {
+    display: flex;
+    margin-top: 64px;
+    column-gap: 24px;
+}
+
+.church-vision-section .container .card-wrapper .card {
+    background-color: #FFF5EB;
+    padding: 80px;
+    border-bottom: 14px #FFD2A4 solid;
+}
+
+.church-vision-section .container .card-wrapper .card img {
+    padding: 13px;
+    background-color: #FFD2A4;
+    border-radius: 100%;
+    margin-bottom: 24px;
+}
+
+.church-vision-section .container .card-wrapper .card h3 {
+    font-size: fonts.$font-size-32px;
+    line-height: fonts.$line-height-44px;
+    letter-spacing: fonts.$letter-sapcing-negative-1;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+
+/*
+------------------------------------------------------------
+Love and compassion section
+------------------------------------------------------------
+*/
+
+.love-and-compassion-section .container .subheader {
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    font-size: fonts.$font-size-16px;
+    letter-spacing: fonts.$letter-sapcing-0;
+    text-align: center;
+}
+
+.love-and-compassion-section .container h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: fonts.$font-size-48px;
+    line-height: fonts.$line-height-64px;
+    letter-spacing: fonts.$letter-sapcing-negative-1;
+}
+
+.love-and-compassion-section .container .header-paragraph {
+    max-width: 846px;
+    text-align: center;
+    margin: auto;
+    margin-top: 32px;
+}
+
+.love-and-compassion-section .container .read-more-btn {
+    margin: auto;
+    margin-top: 56px;
+    display: flex;
+    text-align: center;
+    padding: 24px 64px;
+    border: #FFD2A4;
+    background-color: #FFD2A4;
+    width: fit-content;
+    text-transform: uppercase;
+    color: #1C1D28;
+    text-decoration: none;
+}
+
+.love-and-compassion-section .container .section-images {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    column-gap: 24px;
+}
+
+.love-and-compassion-section .container .section-images img {
+    width: auto;
+    height: auto;
+    border-radius: 32px;
+}
+
+.love-and-compassion-section .container .small-subheader {
+    font-size: fonts.$font-size-32px;
+    line-height: fonts.$line-height-44px;
+    letter-spacing: fonts.$letter-sapcing-negative-1;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+.love-and-compassion-section .container .read-more-btn-o-text {
+    text-decoration: none;
+}
+
+.love-and-compassion-section .container .read-more-btn-o-text div {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    justify-content: center;
+    color: #161722;
+}
+// 512
+
+/*
+------------------------------------------------------------
+Keyframe Animations
+------------------------------------------------------------
+*/
+
+@keyframes navOnScroll {
+	0% {
+		transform: translateY(-60px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
