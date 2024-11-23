@@ -76,7 +76,7 @@
 
             <h4 class="subheader mt-64px">sub-headline</h4>
             <h3 class="small-subheader">love and compassion</h3>
-            <p class="">
+            <p class="header-paragraph-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <a href="http://" rel="noopener noreferrer" class="read-more-btn-o-text">
@@ -87,7 +87,16 @@
             </a>
         </div>
     </section>
-</main>
 
+    <section class="benefits-of-joining-church-section">
+        <div class="container">
+            <h4 class="subheader">sub-headline</h4>
+            <h2 class="">love and compassion</h2>
+
+            <div class=""></div>
+        </div>
+    </section>
+</main>
+<?php wp_footer(); ?>
         
 <?php get_footer();?>

@@ -14,11 +14,11 @@
 
 .navigation-scroll {
     position: fixed !important;
-    background-color: #ffffff;
+    background-color: #0D0D0D;
     width: 100%;
     animation: smoothScroll .5s forwards;
     z-index: 73647982740238092387;
-    padding: 10px 0;
+    // padding: 10px 0;
     top: 0;
 }
 
@@ -165,6 +165,10 @@ Love and compassion section
 ------------------------------------------------------------
 */
 
+.love-and-compassion-section .container {
+    padding-bottom: 128px;
+}
+
 .love-and-compassion-section .container .subheader {
     margin-bottom: 16px;
     text-transform: uppercase;
@@ -228,6 +232,10 @@ Love and compassion section
 
 .love-and-compassion-section .container .read-more-btn-o-text {
     text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin-top: 16px;
 }
 
 .love-and-compassion-section .container .read-more-btn-o-text div {
@@ -236,8 +244,27 @@ Love and compassion section
     column-gap: 8px;
     justify-content: center;
     color: #161722;
+    font-size: fonts.$font-size-14px;
+    line-height: fonts.$line-height-16px;
 }
-// 512
+
+.love-and-compassion-section .container .header-paragraph-2 {
+    max-width: 512px;
+    text-align: center;
+    margin: auto;
+    margin-top: 16px;
+}
+
+/*
+------------------------------------------------------------
+Benefit Of Joining Church Section
+------------------------------------------------------------
+*/
+
+.benefits-of-joining-church-section {
+    background-color: #F5F2F0;
+    padding: 128px;
+}
 
 /*
 ------------------------------------------------------------
