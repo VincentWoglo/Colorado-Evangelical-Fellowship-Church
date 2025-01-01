@@ -16,7 +16,7 @@
     position: fixed !important;
     background-color: #0D0D0D;
     width: 100%;
-    animation: smoothScroll .5s forwards;
+    animation: navOnScroll .5s forwards;
     z-index: 73647982740238092387;
     // padding: 10px 0;
     top: 0;
@@ -266,6 +266,65 @@ Benefit Of Joining Church Section
     padding: 128px;
 }
 
+.benefits-of-joining-church-section .container {
+    box-sizing: border-box;
+}
+
+.benefits-of-joining-church-section .container .subheader {
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    font-size: fonts.$font-size-16px;
+    letter-spacing: fonts.$letter-sapcing-0;
+    text-align: center;
+}
+
+
+.benefits-of-joining-church-section .container h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: fonts.$font-size-48px;
+    line-height: fonts.$line-height-64px;
+    letter-spacing: fonts.$letter-sapcing-negative-1;
+    max-width: 500px;
+    margin: auto;
+}
+
+.benefits-of-joining-church-section .container .church-benefit-cards {
+    margin-top: 64px;
+    display: flex;
+    column-gap: 24px;
+}
+
+.benefits-of-joining-church-section .container .church-benefit-cards .card {
+    position: relative;
+}
+
+.benefits-of-joining-church-section .container .church-benefit-cards .card .overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    // padding: 0 32px;
+    background: linear-gradient(to bottom, #00000012, #060606);
+}
+
+.benefits-of-joining-church-section .container .church-benefit-cards .card img {
+    width: 100%;
+    max-width: 302px;
+    height: 384px;
+    display: block;
+}
+
+.benefits-of-joining-church-section .container .church-benefit-cards .card .overlay h3,
+.benefits-of-joining-church-section .container .church-benefit-cards .card .overlay p {
+    padding: 0 32px;
+}
+
+
+
 /*
 ------------------------------------------------------------
 Keyframe Animations
@@ -279,4 +338,280 @@ Keyframe Animations
 	100% {
 		transform: translateY(0px);
 	}
+}
+
+
+/*
+------------------------------------------------------------
+Testimonials Sections
+------------------------------------------------------------
+*/
+
+.testimonials-section {
+    background-image: url(../../assets/images/facade-of-aged-grand-cathedral-with-dome-on-river-shore-5273642.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonials-section .container {
+    padding: 128px 0;
+
+}
+
+.testimonials-section .container .wrapper {
+    background-color: #ffffff;  
+    max-width: 768px;
+    margin: auto;
+    padding: 72px 48px;
+    display: flex;
+    align-items: center;
+    column-gap: 117px;
+    border-bottom: 16px #FFD2A4 solid;
+}
+
+.testimonials-section .container .wrapper h2 {
+    text-transform: uppercase;
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: fonts.$font-size-48px;
+    line-height: fonts.$line-height-64px;
+    letter-spacing: fonts.$letter-sapcing-negative-1;
+}
+
+.testimonials-section .container .wrapper p {
+    margin-top: 16px;
+    color: #161722;
+}
+
+.testimonials-section .container .wrapper a button {
+    background-color: #FFD2A4;
+    padding: 24px 64px;
+    border-radius: 12px;
+    border: 1px #FFD2A4 solid;
+    margin-top: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+
+/*
+------------------------------------------------------------
+Footer Sections
+------------------------------------------------------------
+*/
+
+footer {
+    background-color: #161722;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    padding: 65px 0;
+}
+
+footer .container .footer-comapny-info .footer-logo {
+    color: #FFD0A0;
+    font-size: fonts.$font-size-24px !important;
+    letter-spacing: fonts.$letter-sapcing-0 !important;
+    font-weight: 900;
+    line-height: normal !important;
+}
+
+footer .container .footer-comapny-info .footer-copyright {
+    margin-top: 27px;
+}
+footer .container .footer-comapny-info .footer-contact-info {
+    margin-top: 32px;
+}
+
+footer .container .footer-comapny-info .footer-contact-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+footer .container .footer-comapny-navigate {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 72px;
+}
+
+footer .container .footer-comapny-navigate .footer-quick-links h3,
+footer .container .footer-comapny-navigate .footer-social-media h3 {
+    font-size: fonts.$font-size-16px !important;
+    line-height: fonts.$line-height-24px !important;
+    letter-spacing: fonts.$letter-sapcing-0;
+}
+
+footer .container .footer-comapny-navigate .footer-quick-links ul,
+footer .container .footer-comapny-navigate .footer-social-media ul {
+    margin-top: 20px;
+}
+
+footer .container .footer-comapny-navigate .footer-quick-links ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    li {
+        text-transform: uppercase;
+    }
+}
+
+footer .container .footer-comapny-navigate .footer-social-media ul {
+    display: flex;
+    column-gap: 20px;
+    img {
+        cursor: pointer;
+    }
+}
+
+footer .container .footer-email-list {
+    h2 {
+        text-transform: uppercase;
+        font-size: fonts.$font-size-32px;
+        line-height: fonts.$line-height-44px;
+        letter-spacing: fonts.$letter-sapcing-negative-1;
+        font-weight: 700;
+        max-width: 550px;
+    }
+
+    form {
+        margin-top: 32px;
+        .email-list-input {
+            width: 100%;
+            max-width: 550px;
+            position: relative;
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px #ffffff solid;
+        }
+        .email-list-btn {
+            position: absolute;
+            margin-top: -57px;
+            padding: 20px;
+            background-color: #FFD2A4;
+            border-radius: 12px;
+            border: 1px #FFD2A4 solid;
+            text-transform: uppercase;
+            cursor: pointer;
+            margin-right: 57px;
+            right: 0;
+        }
+    }
+}
+
+
+/*
+------------------------------------------------------------
+Contact Hero Sections
+------------------------------------------------------------
+*/
+
+.contact-form-section {
+    padding-top: 241px;
+    padding-bottom: 128px;
+    background-color: #F5F2F0;
+}
+
+.contact-form-section .container {
+    display: flex;
+    align-items: baseline;
+    column-gap: 128px;
+}
+
+.contact-hero-section .contact-hero-section-image {
+    position: absolute;
+    width: 100%;
+}
+
+.contact-hero-section  .container {
+    position: relative;
+    padding-top: 128px;
+    color: #ffffff;
+}
+
+.contact-hero-section  .container .contact-hero-information {
+    h4 {
+        text-transform: uppercase;
+        color: #FFD2A4;
+        font-size: fonts.$font-size-16px;
+        letter-spacing: fonts.$letter-sapcing-0;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        font-size: fonts.$font-size-48px;
+        line-height: fonts.$line-height-64px;
+        letter-spacing: fonts.$letter-sapcing-negative-1;
+        color: #ffffff;
+        max-width: 550px;
+        margin-top: 16px;
+    }
+}
+
+.contact-form-section .container .contact-form-wrapper,
+.contact-form-section .container .contact-business-information-wrapper {
+    width: 100%;
+}
+
+.contact-form-section .container .contact-form-wrapper h2 {
+    font-size: fonts.$font-size-24px;
+    font-weight: 700;
+    letter-spacing: fonts.$letter-sapcing-negative-1;
+    text-transform: uppercase;
+}
+
+.contact-form-section .container .contact-form-wrapper form input {
+    padding: 20px;
+    border-radius: 4px;
+    max-width: 624px;
+    width: 100%;
+    color: #161722;
+    border: 1px #ffffff solid;
+    margin-top: 12px;
+} 
+
+.contact-form-section .container .contact-form-wrapper form .contact-send-message-btn {
+    width: 100%;
+    background-color: #FFD2A4;
+    border: 1px #FFD2A4 solid;
+    text-transform: uppercase;
+    max-width: 618px;
+    cursor: pointer;
+}
+
+.contact-form-section .container .contact-business-information-wrapper p {
+    font-size: fonts.$font-size-18px !important;
+    color: #1E1B1B;
+    letter-spacing: fonts.$letter-sapcing-0 !important;
+}
+
+.contact-form-section .container .contact-business-information-wrapper h3 {
+    font-size: fonts.$font-size-24px;
+    color: #161722;
+    letter-spacing: fonts.$letter-sapcing-negative-1;
+    font-weight: 700;
+    margin-top: 8px;
+    text-transform: uppercase;
+    max-width: 350px;
+}
+
+.contact-form-section .container .contact-business-information-wrapper .business-phone-number,
+.contact-form-section .container .contact-business-information-wrapper .business-email {
+    font-size: fonts.$font-size-24px ;
+    color: #161722;
+    letter-spacing: fonts.$letter-sapcing-negative-1 !important;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+.contact-form-section .container .contact-business-information-wrapper .contact-social-information {
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+    margin-top: 8px;
 }

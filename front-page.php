@@ -90,10 +90,79 @@
 
     <section class="benefits-of-joining-church-section">
         <div class="container">
-            <h4 class="subheader">sub-headline</h4>
-            <h2 class="">love and compassion</h2>
+            <h4 class="subheader">Watch and listen</h4>
+            <h2 class="">The benefits of joining our church</h2>
 
-            <div class=""></div>
+            <div class="church-benefit-cards">
+                <div class="card">
+                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/fashion-man-love-people-5875438.png');?>" alt="">
+                    <div class="overlay">
+                        <h3 class="mt-144px">
+                            WATCH AND LISTEN TO OUR SERMONS
+                        </h3>
+                        <p class="overlay-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/a-statue-holding-a-holy-book-5613134.png');?>" alt="">
+                    <div class="overlay">
+                        <h3 class="mt-144px">
+                            WATCH AND LISTEN TO OUR SERMONS
+                        </h3>
+                        <p class="overlay-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/man-people-woman-connection-6276711.png');?>" alt="">
+                    <div class="overlay">
+                        <h3 class="mt-144px">
+                            WATCH AND LISTEN TO OUR SERMONS
+                        </h3>
+                        <p class="overlay-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/woman-in-blue-tank-top-and-man-in-red-shirt-painting-3795022.png');?>" alt="">
+                    <div class="overlay">
+                        <h3 class="mt-144px">
+                            WATCH AND LISTEN TO OUR SERMONS
+                        </h3>
+                        <p class="overlay-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="wrapper">
+                <div class="">
+                    <h2 class="">
+                        We want to serve the world around us
+                    </h2>
+                    <p class="">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                    </p>
+                    <a href="">
+                        <button class="">Visit</button>
+                    </a>
+                </div>
+                <div class="">
+                    <img src="<?php echo esc_url(get_template_directory_uri() . '/assets/icons/quote-icon.svg');?>" alt="" class="">
+                </div>
+            </div>
         </div>
     </section>
 </main>
